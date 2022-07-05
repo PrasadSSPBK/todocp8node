@@ -1,0 +1,25 @@
+GET http://localhost:4000/todos/?status=TO%20DO
+
+###
+
+GET http://localhost:4000/todos/?priority=HIGH
+
+###
+
+GET http://localhost:4000/todos/?search_q=Play
+
+
+###
+GET http://localhost:4000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+GET http://localhost:4000/todos/:todoId/
+
+###
+POST http://localhost:4000/todos/
+
+###
+PUT http://localhost:4000/todos/:todoId/
+
+###
+DELETE  http://localhost:4000/todos/:todoId/
